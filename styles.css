@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dfdcdc65;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h2 {
+    background-color: #6a1b9a;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin-left: 450px;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color: #666;
+    padding: 25px;
+}
+
+hr
+ {
+    border: none;
+    border-top: 3px dotted #6a1b9a;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 50%;
+  }
+section {
+    margin-top: 40px;
+}
+
+section h3 {
+    text-align: center;
+    margin: 0;
+    color: #000000;
+    border-radius: 10px;
+    font-size: x-large;
+    max-width: fit-content;
+    margin-left: 500px;
+}
+
+.team-section {
+    margin-top: 20px;
+}
+
+.team-section h3 {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.team-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.team-member {
+    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.team-member p {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+.team-member span {
+    font-size: 0.9em;
+    color: #666;
+}
+.team-section h4{
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    border-radius: 10px;
+    max-width: fit-content;
+    margin-left: 460px;
+    margin-top: 70px;
+    font-size: x-large
+}
+.container{
+    border: solid black 2px; 
+}
+.bookmarkRibbon {
+    width: 150px;
+    height: 80px;
+    background: #6a1b9a;
+    clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+    rotate: 180deg;
+    margin-top: -20px;
+    margin-left: 1070px;
+     }
+     .bookmarkRibbon1 {
+        width: 150px;
+        height: 80px;
+        background: #6a1b9a;
+        clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+        
+        margin-left: -20px;
+        margin-top: -40px;
+         }
+         .bookmarkRibbon2{
+            width: 150px;
+            height: 80px;
+            background: #6a1b9a;
+            clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+            rotate: 180deg;
+            margin-top: -30px;
+            margin-left: 1070px;
+         }
+        .bookmarkRibbon3 {
+                width: 150px;
+                height: 80px;
+                background: #6a1b9a;
+                clip-path: polygon(0% 0%, 100% 0%, calc(100% - 20px) 50%, 100% 100%, 0% 100%);
+                
+                margin-left: -20px;
+                margin-top: 80px;
+                margin-left: -960px;
+              
+            }
